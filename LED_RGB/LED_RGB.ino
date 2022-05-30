@@ -17,8 +17,8 @@ void setup() {
   Serial.begin(9600);
   Serial.println("");
   Serial.println("**************************");
-  Serial.println("Led RGB che cambia ogni tot ms");
-  Serial.println("Configurazione: + = V5, - = GND, dati = D0 (su Wemos D1 mini)");
+  Serial.println("RGB led changing every s");
+  Serial.println("Hardware configuration (only one LED considered): VCC = V5, GND = GND, data = D0 (on Wemos D1 mini board)");
     // Uncomment/edit one of the following lines for your leds arrangement.
     // ## Clockless types ##
     // FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);  // GRB ordering is assumed
